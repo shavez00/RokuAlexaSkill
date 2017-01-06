@@ -1,0 +1,123 @@
+{
+  "intents": [
+    {
+      "intent": "Home",
+      "slots": []
+    },
+    {
+      "intent": "Pandora",
+      "slots": []
+    },
+    {
+      "intent": "Vevo",
+      "slots": []
+    },
+    {
+      "intent": "Amazon",
+      "slots": []
+    },
+    {
+      "intent": "Netflix",
+      "slots": []
+    },
+    {
+      "intent": "History",
+      "slots": []
+    },
+    {
+      "intent": "TV",
+      "slots": []
+    },
+    {
+      "intent": "FX",
+      "slots": []
+    },
+    {
+      "intent": "FourK",
+      "slots": []
+    },
+    {
+      "intent": "Fastforward",
+      "slots": []
+    },
+    {
+      "intent": "Instantreplay",
+      "slots": []
+    },
+    {
+      "intent": "Rewind",
+      "slots": []
+    },
+    {
+      "intent": "Up",
+      "slots": []
+    },
+    {
+      "intent": "Down",
+      "slots": []
+    },
+    {
+      "intent": "Left",
+      "slots": []
+    },
+    {
+      "intent": "Right",
+      "slots": []
+    },
+    {
+      "intent": "Back",
+      "slots": []
+    },
+    {
+      "intent": "PowerOn",
+      "slots": []
+    },
+    {
+      "intent": "PowerOff",
+      "slots": []
+    },
+    {
+      "intent": "YouTube",
+      "slots": []
+    },
+    {
+      "intent": "Select",
+      "slots": []
+    },
+    {
+      "intent": "Type",
+      "slots": [
+          {
+              "name": "Text",
+              "type": "LITERAL"
+          }
+      ]
+    },
+    {
+      "intent": "PlayPause",
+      "slots": []
+    },
+    {
+      "intent": "SearchRoku",
+      "slots": [
+          {
+              "name": "Text",
+              "type": "LITERAL"
+          }
+      ]
+    },
+    {
+      "intent": "Search",
+      "slots": [
+          {
+              "name": "Text",
+              "type": "LITERAL"
+          }
+      ]
+    },
+    {
+      "intent": "HelpIntent",
+      "slots": []
+    }
+  ]
+}

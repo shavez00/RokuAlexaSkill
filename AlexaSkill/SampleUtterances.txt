@@ -1,0 +1,134 @@
+Amazon open amazon
+Amazon start amazon
+Amazon go to amazon
+Amazon launch amazon
+Amazon turn to amazon
+
+Vevo open amazon
+Vevo start amazon
+Vevo go to amazon
+Vevo launch Vevo
+Vevo turn to Vevo
+
+Netflix start Netflix
+Netflix go to Netflix
+Netflix launch Netflix
+Netflix turn to Netflix
+
+History open history
+History start history
+History go to history
+History launch history
+History open the history channel
+History start the history channel
+History go the history channel
+History launch the history channel
+
+YouTube open youtube
+YouTube start youtube
+YouTube go to youtube
+
+Pandora open pandora
+Pandora start pandora
+Pandora go to pandora
+
+TV open tv
+TV start tv
+TV go to tv
+
+FX open eff x
+FX start eff x
+FX go to eff x
+
+FourK open four k
+FourK start four k
+FourK go to four k
+
+Home home
+Home go home
+Home go to home
+
+Fastforward fast forward
+Fastforward skip ahead
+Fastforward move ahead
+
+Rewind rewind 
+Rewind move back
+
+Up go up
+Up move up
+
+Down go down
+Down move down
+
+Left go left
+Left move left
+
+Back go back
+Back move back
+
+Right go right
+Right move right
+
+Instantreplay skip back
+Instantreplay instant replay
+
+PlayPause play
+PlayPause pause
+PlayPause stop
+
+Select go
+Select enter
+Select select
+Select yes
+
+PowerOn turn on
+PowerOn power on
+PowerOn on
+
+PowerOff turn off
+PowerOff power off
+PowerOff off
+
+Back go back
+Back back up
+Back return
+
+Type type {futurama|Text}
+Type type {How I met your mother|Text}
+Type type {harry potter|Text}
+
+SearchRoku search and play {futurama|Text}
+SearchRoku search and play {cosmos|Text}
+SearchRoku search and play {How I met your mother|Text}
+SearchRoku search and play {Knights of sidonia|Text}
+SearchRoku search and play {Gargantia|Text}
+SearchRoku play next {futurama|Text}
+SearchRoku play next {cosmos|Text}
+SearchRoku play next {How I met your mother|Text}
+SearchRoku play next {Knights of sidonia|Text}
+SearchRoku play next {Gargantia|Text}
+SearchRoku play {frequently asked questions about time travel|Text}
+SearchRoku play {santa claus|Text}
+SearchRoku play {gilmore girls|Text}
+SearchRoku play {harry potter|Text}
+
+Search search {santa claus|Text}
+Search type {harry potter|Text}
+
+HelpIntent help
+HelpIntent help me
+HelpIntent what can I ask you
+HelpIntent get help
+HelpIntent to help
+HelpIntent to help me
+HelpIntent what commands can I ask
+HelpIntent what commands can I say
+HelpIntent what can I do
+HelpIntent what can I use this for
+HelpIntent what questions can I ask
+HelpIntent what can you do
+HelpIntent what do you do
+HelpIntent how do I use you
+HelpIntent how can I use you
+HelpIntent what can you tell me
