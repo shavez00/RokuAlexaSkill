@@ -1,15 +1,37 @@
 {
   "intents": [
     {
+      "intent": "PlayChannel",
+      "slots": [
+        {
+          "name": "Channel",
+          "type": "LIST_OF_CHANNELS"
+        }
+      ]
+    },
+    {
+      "intent": "RokuSearch",
+      "slots": [
+        {
+          "name": "Search",
+          "type": "SEARCH"
+        }
+      ]
+    },
+    {
       "intent": "Home",
       "slots": []
     },
     {
-      "intent": "Pandora",
+      "intent": "WatchESPN",
       "slots": []
     },
     {
-      "intent": "Vevo",
+      "intent": "CNNGo",
+      "slots": []
+    },
+    {
+      "intent": "BloombergTV",
       "slots": []
     },
     {
@@ -33,7 +55,7 @@
       "slots": []
     },
     {
-      "intent": "FourK",
+      "intent": "btngo",
       "slots": []
     },
     {
@@ -49,7 +71,19 @@
       "slots": []
     },
     {
+      "intent": "PlayPause",
+      "slots": []
+    },
+    {
       "intent": "Up",
+      "slots": []
+    },
+    {
+      "intent": "UpTwo",
+      "slots": []
+    },
+    {
+      "intent": "UpThree",
       "slots": []
     },
     {
@@ -57,11 +91,35 @@
       "slots": []
     },
     {
+      "intent": "DownTwo",
+      "slots": []
+    },
+    {
+      "intent": "DownThree",
+      "slots": []
+    },
+    {
       "intent": "Left",
       "slots": []
     },
     {
+      "intent": "LeftTwo",
+      "slots": []
+    },
+    {
+      "intent": "LeftThree",
+      "slots": []
+    },
+    {
       "intent": "Right",
+      "slots": []
+    },
+    {
+      "intent": "RightTwo",
+      "slots": []
+    },
+    {
+      "intent": "RightThree",
       "slots": []
     },
     {
@@ -77,6 +135,18 @@
       "slots": []
     },
     {
+      "intent": "VolumeUp",
+      "slots": []
+    },
+    {
+      "intent": "VolumeDown",
+      "slots": []
+    },
+    {
+      "intent": "Mute",
+      "slots": []
+    },
+    {
       "intent": "YouTube",
       "slots": []
     },
@@ -86,28 +156,6 @@
     },
     {
       "intent": "Type",
-      "slots": [
-          {
-              "name": "Text",
-              "type": "LITERAL"
-          }
-      ]
-    },
-    {
-      "intent": "PlayPause",
-      "slots": []
-    },
-    {
-      "intent": "SearchRoku",
-      "slots": [
-          {
-              "name": "Text",
-              "type": "LITERAL"
-          }
-      ]
-    },
-    {
-      "intent": "Search",
       "slots": [
           {
               "name": "Text",
