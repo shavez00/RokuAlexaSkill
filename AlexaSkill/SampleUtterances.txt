@@ -1,14 +1,28 @@
+PlayChannel launch {Channel}
+PlayChannel open {Channel}
+PlayChannel goto {Channel}
+PlayChannel start {Channel}
+PlayChannel turn to {Channel}
+PlayChannel go to {Channel}
+PlayChannel change channel to {Channel}
+PlayChannel {Channel}
+
+RokuSearch search {Search}
+RokuSearch search for {Search}
+RokuSearch find {Search}
+RokuSearch look up {Search}
+RokuSearch browse for {Search}
+RokuSearch to search {Search}
+RokuSearch to search for {Search}
+RokuSearch to find {Search}
+RokuSearch to look up {Search}
+RokuSearch to browse for {Search}
+
 Amazon open amazon
 Amazon start amazon
 Amazon go to amazon
 Amazon launch amazon
 Amazon turn to amazon
-
-Vevo open amazon
-Vevo start amazon
-Vevo go to amazon
-Vevo launch Vevo
-Vevo turn to Vevo
 
 Netflix start Netflix
 Netflix go to Netflix
@@ -28,9 +42,14 @@ YouTube open youtube
 YouTube start youtube
 YouTube go to youtube
 
-Pandora open pandora
-Pandora start pandora
-Pandora go to pandora
+WatchESPN open ESPN
+WatchESPN start ESPN
+WatchESPN go to ESPN
+WatchESPN launch ESPN
+WatchESPN open Watch ESPN
+WatchESPN start Watch ESPN
+WatchESPN go to Watch ESPN
+WatchESPN launch Watch ESPN
 
 TV open tv
 TV start tv
@@ -40,9 +59,44 @@ FX open eff x
 FX start eff x
 FX go to eff x
 
-FourK open four k
-FourK start four k
-FourK go to four k
+btngo open BTN Two Go
+btngo start BTN Two Go
+btngo go to BTN Two Go
+btngo launch BTN Two Go
+btngo open BTN
+btngo start BTN
+btngo go to BTN
+btngo launch BTN
+btngo open Big Ten Network
+btngo start Big Ten Network
+btngo go to Big Ten Network
+btngo launch Big Ten Network
+
+BloombergTV open Bloomberg TV
+BloombergTV start Bloomberg TV
+BloombergTV go to Bloomberg TV
+BloombergTV launch Bloomberg TV
+BloombergTV open Bloomberg
+BloombergTV start Bloomberg
+BloombergTV go to Bloomberg
+BloombergTV launch Bloomberg
+BloombergTV open Bloomberg News
+BloombergTV start Bloomberg News
+BloombergTV go to Bloomberg News
+BloombergTV launch Bloomberg News
+
+CNNGo open CNN
+CNNGo start CNN
+CNNGo go to CNN
+CNNGo launch CNN
+CNNGo open CNN Go
+CNNGo start CNN Go
+CNNGo go to CNN Go
+CNNGo launch CNN Go
+CNNGo open CNN News
+CNNGo start CNN News
+CNNGo go to CNN News
+CNNGo launch CNN News
 
 Home home
 Home go home
@@ -55,20 +109,56 @@ Fastforward move ahead
 Rewind rewind 
 Rewind move back
 
-Up go up
-Up move up
+Up go Up
+Up move Up
+Up Up
 
-Down go down
-Down move down
+UpTwo go Up two
+UpTwo move Up two
+UpTwo Up two
 
-Left go left
-Left move left
+UpThree go Up three
+UpThree move Up three
+UpThree Up three
+
+Down go Down
+Down move Down
+Down Down
+
+DownTwo go Down two
+DownTwo move Down two
+DownTwo Down two
+
+DownThree go Down three
+DownThree move Down three
+DownThree Down three
+
+Left go Left
+Left move Left
+Left Left
+
+LeftTwo go Left two
+LeftTwo move Left two
+LeftTwo Left two
+
+LeftThree go Left three
+LeftThree move Left three
+LeftThree Left three
 
 Back go back
 Back move back
 
 Right go right
 Right move right
+Right right
+
+RightTwo go right two
+RightTwo move right two
+RightTwo right two
+
+RightThree go right three
+RightThree move right three
+RightThree right three
 
 Instantreplay skip back
 Instantreplay instant replay
@@ -76,6 +166,8 @@ Instantreplay instant replay
 PlayPause play
 PlayPause pause
 PlayPause stop
+PlayPause resume
+PlayPause continue
 
 Select go
 Select enter
@@ -90,6 +182,22 @@ PowerOff turn off
 PowerOff power off
 PowerOff off
 
+VolumeUp Volume Up
+VolumeUp turn it up
+VolumeUp turn the volume up
+VolumeUp louder
+
+VolumeDown Volume Down
+VolumeDown turn it down
+VolumeDown turn the volume down
+VolumeDown quieter
+
+Mute mute
+Mute turn the volume off
+Mute unmute
+Mute turn the volume back on
+Mute silence
+
 Back go back
 Back back up
 Back return
@@ -97,24 +205,6 @@ Back return
 Type type {futurama|Text}
 Type type {How I met your mother|Text}
 Type type {harry potter|Text}
-
-SearchRoku search and play {futurama|Text}
-SearchRoku search and play {cosmos|Text}
-SearchRoku search and play {How I met your mother|Text}
-SearchRoku search and play {Knights of sidonia|Text}
-SearchRoku search and play {Gargantia|Text}
-SearchRoku play next {futurama|Text}
-SearchRoku play next {cosmos|Text}
-SearchRoku play next {How I met your mother|Text}
-SearchRoku play next {Knights of sidonia|Text}
-SearchRoku play next {Gargantia|Text}
-SearchRoku play {frequently asked questions about time travel|Text}
-SearchRoku play {santa claus|Text}
-SearchRoku play {gilmore girls|Text}
-SearchRoku play {harry potter|Text}
-
-Search search {santa claus|Text}
-Search type {harry potter|Text}
 
 HelpIntent help
 HelpIntent help me
