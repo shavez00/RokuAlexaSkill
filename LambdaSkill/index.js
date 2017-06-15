@@ -18,11 +18,12 @@ function getChannels(intent,session,response) {
     };
 
     http.get(options, function(res) {
+        //need to do a try/catch block to try and make the error message more helpful.
             res.on('data', function (chunk) {
                 var jsonContent = JSON.parse(chunk);
                 var chan = intent.slots.Channel.value;
                 var id = chan.toLowerCase();
-                console.log('BODY: ' + jsonContent[id]);
+                console.log("BODY: " + jsonContent[id]);
                 sendCommand("/roku/launch/"+jsonContent[id],null,function(){
                     response.tellWithCard("Launching "+intent.slots.Channel.value);
                 });
@@ -72,7 +73,7 @@ AlexaRoku.prototype.intentHandlers = {
     RokuSearch: function (intent, session, response) {
         var query = intent.slots.Search.value;
         var searchString = querystring.stringify({title : query});
-        console.log("/roku/search/browse?"+searchString);
+        console.log("Show searched for = "+intent.slots.Search.value);
         sendCommand("/roku/search/browse?"+searchString,null,function() {
             response.tellWithCard("Searching for "+intent.slots.Search.value);
         });
